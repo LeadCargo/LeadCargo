@@ -1,0 +1,8 @@
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/obj/Debug/netstandard2.0/CommonLibraries.csprojAssemblyReference.cache
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/obj/Debug/netstandard2.0/CommonLibraries.AssemblyInfoInputs.cache
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/obj/Debug/netstandard2.0/CommonLibraries.AssemblyInfo.cs
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/bin/Debug/netstandard2.0/CommonLibraries.deps.json
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/bin/Debug/netstandard2.0/CommonLibraries.dll
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/bin/Debug/netstandard2.0/CommonLibraries.pdb
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/obj/Debug/netstandard2.0/CommonLibraries.dll
+/home/hoozhe/vs-projects/LeadCargo/CommonLibraries/obj/Debug/netstandard2.0/CommonLibraries.pdb

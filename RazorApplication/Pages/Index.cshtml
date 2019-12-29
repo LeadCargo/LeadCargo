@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div class="accordion" id="systemMenu">
+    <div clas="card">
+        <div class="card-header" id="system_01">
+            <a class="btn btn-link" data-toggle="collapse" data-target="#menugroup_01"
+                aria-controls="menugroup_01" aria-expanded="false">
+                系统设置
+            </a>
+        </div>
+        <div id="menugroup_01" class="collapse" aria-labelledby="system_01" data-parent="#systemMenu">
+            <div class="card-body nav flex-column">
+                <a class="nav-link" href="#">菜单1</a>
+                <a class="nav-link" href="#">菜单1</a>
+                <a class="nav-link" href="#">菜单1</a>
+                <a class="nav-link" href="#">菜单1</a>
+            </div>
+        </div>
+    </div>
+     <div clas="card">
+        <div class="card-header" id="system_02">
+            <a class="btn btn-link" data-toggle="collapse" data-target="#menugroup_02"
+                aria-controls="menugroup_02" aria-expanded="false">
+                系统设置
+            </a>
+        </div>
+        <div id="menugroup_02" class="collapse" aria-labelledby="system_02" data-parent="#systemMenu">
+            <div class="card-body nav flex-column">
+                <a class="nav-link" href="#">菜单1</a>
+                <a class="nav-link" href="#">菜单1</a>
+                <a class="nav-link" href="#">菜单1</a>
+                <a class="nav-link" href="#">菜单1</a>
+            </div>
+        </div>
+    </div>
+</div>
