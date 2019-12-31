@@ -50,7 +50,7 @@ namespace FrameworkCore
         /// <summary>
         /// 私有化锁
         /// </summary>
-        private readonly object _Locker = new object();
+        private static readonly object _Locker = new object();
         /// <summary>
         /// 静态实例
         /// </summary>
@@ -61,10 +61,11 @@ namespace FrameworkCore
         /// <summary>
         /// 构造函数
         /// </summary>
-        private IdGenerator(int workid) =>
-            workid>=1024 || workid<0?
-                throw new ArgumentException():
-                _WorkerId = workid;
+        private IdGenerator(int workid){
+            if(workid>=1024 || workid<0)
+                throw new ArgumentException("分布式标识仅支持0~1023");
+            _WorkerId = workid;
+        }
         /// <summary>
         /// 获得运行实例
         /// </summary>
@@ -86,8 +87,8 @@ namespace FrameworkCore
         /// </summary>
         public int WorkId
         {
-            get{return _WorkerId;}
-            private set;
+            get{return (int)_WorkerId;}
+            private set{}
         }
         #endregion properties
 
