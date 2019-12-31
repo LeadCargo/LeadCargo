@@ -35,3 +35,4 @@
 /home/hoozhe/vs-projects/LeadCargo/RazorApplication/obj/Debug/netcoreapp3.0/RazorApplication.csproj.CopyComplete
 /home/hoozhe/vs-projects/LeadCargo/RazorApplication/bin/Debug/netcoreapp3.0/CommonLibraries.dll
 /home/hoozhe/vs-projects/LeadCargo/RazorApplication/bin/Debug/netcoreapp3.0/CommonLibraries.pdb
+/home/hoozhe/vs-projects/LeadCargo/RazorApplication/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_MainLayout.cshtml.g.cs

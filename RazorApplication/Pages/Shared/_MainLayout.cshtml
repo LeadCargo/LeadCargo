@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewBag.Title</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+       <header>
+           <!-- 顶部通条导航 -->
+           <nav class="navbar border h-100">
+               项部通条导航
+           </nav>
+       </header>
+       <div class="contrainer-fluid">
+           <div class="row" style="height:100%;">
+           <nav class="navbar col-md-2 border">
+               右侧导航
+           </nav>
+           <div class="content col-md-10 border">
+                @RenderBody()
+                <footer class="fixed-bottom border">
+                底部页角文本
+                </footer>
+           </div>
+           </div>
+       </div>
+    </body>
+</html>
