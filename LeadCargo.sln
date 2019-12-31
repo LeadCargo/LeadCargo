@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibraries", "CommonLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkCore", "FrameworkCore\FrameworkCore.csproj", "{B072E654-A8EC-400D-AB52-5D07DE50DF68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectUnitTest", "ProjectUnitTest\ProjectUnitTest.csproj", "{AE6EA854-58BF-41BE-85E1-6BBA63695C22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{B072E654-A8EC-400D-AB52-5D07DE50DF68}.Release|x64.Build.0 = Release|Any CPU
 		{B072E654-A8EC-400D-AB52-5D07DE50DF68}.Release|x86.ActiveCfg = Release|Any CPU
 		{B072E654-A8EC-400D-AB52-5D07DE50DF68}.Release|x86.Build.0 = Release|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Debug|x64.Build.0 = Debug|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Debug|x86.Build.0 = Debug|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Release|x64.ActiveCfg = Release|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Release|x64.Build.0 = Release|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Release|x86.ActiveCfg = Release|Any CPU
+		{AE6EA854-58BF-41BE-85E1-6BBA63695C22}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
