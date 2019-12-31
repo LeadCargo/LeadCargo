@@ -98,7 +98,20 @@ namespace FrameworkCore
         /// <returns>Id</returns>
         public long NextId()
         {
-            
+            var currentTimestap = Timestamp();
+            // 检查当前时间戳
+            if(currentTimestap>_Timestamp){
+                _Timestamp = currentTimestap;
+                _Sequence = 0;
+            }
+            // 检查序号是否超编
+            if((_Sequence++&_SequenceMask)==0){
+                _Timestamp++;
+                _Sequence =0L;
+            }
+            // 返回结果
+            return _Timestamp<<22|_WorkerId<<12|_Sequence;
+
         }
 
         /// <summary>
