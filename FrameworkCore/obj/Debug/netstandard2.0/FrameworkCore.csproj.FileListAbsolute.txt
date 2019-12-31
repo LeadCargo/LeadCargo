@@ -1,0 +1,8 @@
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/bin/Debug/netstandard2.0/FrameworkCore.deps.json
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/bin/Debug/netstandard2.0/FrameworkCore.dll
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/bin/Debug/netstandard2.0/FrameworkCore.pdb
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/obj/Debug/netstandard2.0/FrameworkCore.csprojAssemblyReference.cache
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/obj/Debug/netstandard2.0/FrameworkCore.AssemblyInfoInputs.cache
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/obj/Debug/netstandard2.0/FrameworkCore.AssemblyInfo.cs
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/obj/Debug/netstandard2.0/FrameworkCore.dll
+/home/hoozhe/vs-projects/LeadCargo/FrameworkCore/obj/Debug/netstandard2.0/FrameworkCore.pdb
